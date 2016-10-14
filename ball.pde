@@ -6,6 +6,7 @@ char dir ='r';
 void setup() {
   // resizes the run window
   size(640, 480);
+  print("starting Square Ball!");
 }
 
 // This function keeps looping
