@@ -17,12 +17,14 @@ void draw() {
   ellipse(x, y, 50, 50);
   
   // go right
-  if(x < 500 && dir == 'r') {
+  if(dir == 'r') {
+  //if(x < 500 && dir == 'r') {
      x += 1;
      if(x == 500)
        dir = 'd';
-    // go down   
-  } else if(x >= 500 && y < 400 && dir == 'd') {
+    // go down
+  } else if(dir == 'd') {
+  //} else if(x >= 500 && y < 400 && dir == 'd') {
     y += 1;
     if(y == 400)
       dir = 'l';
