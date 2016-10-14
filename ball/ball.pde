@@ -1,8 +1,7 @@
 int x = 100;
 int y = 100;
-
 char dir ='r';
-// completed
+
 void setup() {
   // resizes the run window
   size(640, 480);
@@ -18,13 +17,11 @@ void draw() {
   
   // go right
   if(dir == 'r') {
-  //if(x < 500 && dir == 'r') {
      x += 1;
      if(x == 500)
        dir = 'd';
     // go down
   } else if(dir == 'd') {
-  //} else if(x >= 500 && y < 400 && dir == 'd') {
     y += 1;
     if(y == 400)
       dir = 'l';
