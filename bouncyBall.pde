@@ -2,7 +2,7 @@ int x = 100;
 int y = 100;
 
 char dir ='r';
-
+// completed
 void setup() {
   // resizes the run window
   size(640, 480);
